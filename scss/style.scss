@@ -171,6 +171,94 @@
     width: 291px;
 }
 
+// ===WORK===
+
+.work__container{
+    margin-bottom: 212px;
+}
+
+.work--wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.work__container .work--title{
+    margin-top: 60px;
+    margin-bottom: 32px;
+    font-family: 'Exo 2';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color:#363738;
+}
+
+.work__container .work--text{
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6C;
+    width: 667px;
+    margin-bottom: 56px;
+}
+
+.work__container .work--wrapper .machines{
+    box-shadow: 0px 4px 15px 0px #0000001F;
+    border-radius: 10px;
+    width: 393px;
+    // height: 440px;
+}
+
+.work__container .work--wrapper .machines img{
+    width: 393px;
+    height: 247px;
+}
+
+.work__container .work--wrapper .machines .machines--texts{
+    padding: 24px 34px 32px 32px;
+}
+
+.work__container .work--wrapper .machines .machines--texts .machines--info{
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #363738;
+    margin-bottom: 16px;
+}
+
+.work__container .work--wrapper .machines .machines--texts .machiness--text{
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6C;
+    margin-bottom: 32px;
+}
+
+.work__container .work--wrapper .machines .machines--texts .cost{
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+    color: #363738;
+    width: 90px;
+    border-bottom: 3px solid #FFCE50
+}
+
+
+
+
+
+
+
+
 
 
 
