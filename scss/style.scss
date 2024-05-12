@@ -252,13 +252,197 @@
     border-bottom: 3px solid #FFCE50
 }
 
+// ===CLIENTS===
+
+.clients__container{
+    background-color: #0B7572;
+    width: 1239px;
+    height: 917px;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.clients__container .clients--title{
+    font-family: 'Exo 2';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 477px;
+    padding: 100px 80px;
+}
+
+.clients__container .about--pdv{
+    position: absolute;
+    width: 652px;
+    height: 747px;
+    right: 66px;
+    top: 85px;
+    border-radius: 8px;
+    z-index: 11;
+    background-color: white;
+    padding: 28px 32px;
+}
 
 
+.clients__container .about--pdv .addres{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.clients__container .about--pdv .addres .pdv-logo img{
+    width: 103px;
+    height: 56.49px;
+}
 
+.clients__container .about--pdv .addres .about--pdv__text{
+    text-decoration: none;
+    font-family: PT Sans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16.5px;
+    text-align: left;
+    width: 274px;
+    color: #6B6B6C;
+}
 
+.border-bottom{
+    width: 588px;
+    border-bottom: 1px solid #D7D7DD;
+    margin-top: 32px;
+}
 
+// ===SUPPLIES===
 
+.supplies--title{
+    font-family: 'Exo 2';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #363738;
+    margin-bottom: 80px;
+}
 
+.supplies--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.supplies--wrapper .first-supplies{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 15px 0px #0000001F;
+    border-radius:4px;
+    width: 1183px;
+    height: 245px;
+    top: 3921px;
+    left: 149px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 24px;
+    padding-left: 96px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.supplies--wrapper .first-supplies .supplies--img{
+    width: 331px;
+    height: 181px;
+}
+
+.supplies--wrapper .first-supplies .supplies--info{
+    margin-left: 56px;
+}
+
+.supplies--wrapper .first-supplies .supplies--info .supplies--subtitle{
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    color: #363738;
+}
+
+.supplies--wrapper .first-supplies .supplies--info .supplies--border{
+    border-bottom: 3px solid #FFCE50;
+    width: 86px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.supplies--wrapper .first-supplies .supplies--info .supplies--text{
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6C;
+    width: 568px;
+}
+
+// ===LOGOS===
+
+.logos__container .logos--title{
+    font-family: 'Exo 2';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #363738;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.logos__container .logos--wrapper .logos--second__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 73px;
+    margin-bottom: 130px;
+    position: relative;
+}
+
+.logos__container .logos--wrapper .logos--first__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 73px;
+    margin-bottom: 98px;
+    position: relative;
+}
+
+.logos__container .logos--wrapper .logos--list a img{
+    margin-bottom: 32px;
+}
+
+.logos__container .logos--wrapper .logos--list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    // border-right: 1px solid #D7D7DD;
+    // height: 183px;;
+    margin-right: 73px;
+}
+
+.logos__container .logos--wrapper .logos--list .logos--subtitle{
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color:#363738;
+}
+
+.logos__container .logos--wrapper .logos--list .logos--info{
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #6B6B6C;
+}
 
