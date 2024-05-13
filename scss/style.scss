@@ -446,3 +446,72 @@
     color: #6B6B6C;
 }
 
+// ===COMPANY===
+
+
+
+.company__container .company--title{
+    font-family: 'Exo 2';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #363738;
+    margin-bottom: 72px;
+}
+
+.company__container .company--wrapper .company--list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.company__container .company--wrapper .company--employees{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0px 4px 15px 0px #00000026;
+    width: 605px;
+    height: 210px;
+    border-left: 40px solid #0B7572;
+    border-radius: 10px;
+    padding: 32px;
+    margin-bottom: 24px;
+}
+
+.company__container .company--wrapper .company--employees .company--employes__img img{
+    width: 138px;
+    height: 138px;
+}
+
+.company__container .company--wrapper .company--employees .company--employees__info .company--employees__name{
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #363738;
+    margin-bottom: 12px;
+}
+
+.company__container .company--wrapper .company--employees .company--employees__info .company--employes__work{
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #6B6B6C;
+    margin-bottom: 16px;
+}
+
+.company__container .company--wrapper .company--employees .company--employees__info .company--employees__border{
+    border: 3px solid #FFCE50;
+    width: 86px;
+    margin-bottom: 32px;
+}
+
+.company__container .company--wrapper .company--employees .company--employees__info .company--employees__links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
