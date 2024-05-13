@@ -515,3 +515,109 @@
     align-items: center;
     gap: 20px;
 }
+
+// ===CONTACT===
+
+.contacts__container .contacts--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts__container .contacts--title{
+    margin-top: 110px;
+    margin-bottom: 94px;
+    font-family: 'Exo 2';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #363738;
+}
+
+.contacts__container .contacts--adress .contact--phone{
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    margin-bottom: 44px;
+}
+
+.contacts__container .contacts--adress .contact--phone .contact--info .contact--subtitle{
+    text-decoration: none;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #6B6B6C;
+    margin-bottom: 8px;
+}
+
+.contacts__container .contacts--adress .contact--phone .contact--info .contact--phone__number{
+    text-decoration: none;
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #363738;
+}
+
+.contacts__container .contacts--wrapper .about--contacts{
+    background-color: #F9F9FB;
+    padding: 48px;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__container .contacts--wrapper .about--contacts .contacts--full__name{
+    border-bottom: 1px solid #E9EAF2 ;
+    margin-bottom: 32px;
+}
+    
+.contacts__container .contacts--wrapper .about--contacts .contacts--full__name .full--name{
+    margin-right: 56px;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #6B6B6C;
+    text-decoration: none;
+}
+
+.contacts__container .contacts--wrapper .about--contacts .contacts--full__name .contacts--number{
+    // display: flex;
+    // align-items: center;
+    font-family: 'Exo 2';
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #363738;
+}
+
+.contacts__container .contacts--wrapper .about--contacts .contacts--full__name__adress .contacts--number__adress{
+    width: 443px;
+    font-family: 'Exo 2';
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #363738;
+}
+
+
+.contacts__container .contacts--wrapper .about--contacts .contacts--full__name__adress .full--name___adress{
+    margin-right: 56px;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #6B6B6C;
+    text-decoration: none;
+}
