@@ -522,6 +522,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 46px;
 }
 
 .contacts__container .contacts--title{
@@ -565,7 +566,10 @@
 
 .contacts__container .contacts--wrapper .about--contacts{
     background-color: #F9F9FB;
-    padding: 48px;
+    padding-top: 48px;
+    padding-left: 48px;
+    padding-bottom: 56px;
+    padding-right:72px ;
     border-radius:5px;
     display: flex;
     flex-direction: column;
@@ -621,3 +625,4 @@
     color: #6B6B6C;
     text-decoration: none;
 }
+
