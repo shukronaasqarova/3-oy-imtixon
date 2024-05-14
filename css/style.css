@@ -753,14 +753,348 @@
     margin-left: 100px;
     margin-bottom: 97px;
   }
+  .big--truct__container {
+    margin: 0 auto;
+    width: 100%;
+    margin-left: 105px;
+    margin-bottom: 48px;
+  }
+  .links__container .liks--first__wrapper {
+    margin: 0 auto;
+    display: block;
+  }
+  .work__container {
+    display: block;
+    margin: 0 auto;
+  }
+  .work__container .work--title {
+    margin-left: 80px;
+  }
+  .work__container .work--text {
+    margin-left: 80px;
+  }
+  .work__container .work--wrapper {
+    display: block;
+  }
+  .work__container .work--wrapper .machines {
+    width: 100%;
+    margin-bottom: 32px;
+    margin-left: 80px;
+  }
+  .work__container .work--wrapper .machines img {
+    width: 100%;
+    height: 247px;
+  }
+  .clients__container {
+    margin-left: 80px;
+    display: block;
+  }
+  .clients--title {
+    display: block;
+    margin-bottom: 88px;
+  }
+  .supplies__container .supplies--title {
+    margin-left: 80px;
+  }
+  .supplies__container .supplies--wrapper {
+    margin-left: 250px;
+  }
+  .supplies__container .supplies--wrapper .first-supplies .supplies--info {
+    width: 100%;
+  }
+  .supplies__container .supplies--wrapper .first-supplies img {
+    display: none;
+  }
+  .logos__container .logos--title {
+    margin-left: 80px;
+  }
+  .logos__container .logos--wrapper .logos--first__wrapper {
+    margin-left: 60px;
+  }
+  .logos--second__wrapper {
+    margin-left: 60px;
+  }
+  .company--title {
+    margin-left: 80px;
+  }
+  .company__container .company--wrapper .company--list {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 80px;
+  }
+  .contacts--title {
+    margin-left: 80px;
+  }
+  .contacts--wrapper {
+    margin-left: 80px;
+  }
+  .video {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer__container {
+    width: 100%;
+    margin-left: 80px;
+  }
 }
 @media screen and (max-width: 768) {
   .container {
     max-width: 720px;
   }
+  .hero__container {
+    display: block;
+    margin: 0 auto;
+    margin-left: 100px;
+  }
+  .hero-info {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero__container .hero-info h1 {
+    text-align: center;
+    width: 100%;
+  }
+  .hero__container .hero-info .hero-text {
+    width: 690px;
+    margin: 0 auto;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 44px;
+    color: #6B6B6C;
+  }
+  .hero__container .hero-info a {
+    margin: 0 auto;
+  }
+  .hero__container .hero-img img {
+    margin: 0 auto;
+    width: 960px;
+    margin-top: 71px;
+    margin-bottom: 41px;
+  }
+  .services-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 97px;
+  }
+  .big--truct__container {
+    margin: 0 auto;
+    width: 100%;
+    margin-left: 105px;
+    margin-bottom: 48px;
+  }
+  .links__container .liks--first__wrapper {
+    margin: 0 auto;
+    display: block;
+  }
+  .work__container {
+    display: block;
+    margin: 0 auto;
+  }
+  .work__container .work--title {
+    margin-left: 80px;
+  }
+  .work__container .work--text {
+    margin-left: 80px;
+  }
+  .work__container .work--wrapper {
+    display: block;
+  }
+  .work__container .work--wrapper .machines {
+    width: 100%;
+    margin-bottom: 32px;
+    margin-left: 80px;
+  }
+  .work__container .work--wrapper .machines img {
+    width: 100%;
+    height: 247px;
+  }
+  .clients__container {
+    margin-left: 80px;
+    display: block;
+  }
+  .clients--title {
+    display: block;
+    margin-bottom: 88px;
+  }
+  .supplies__container .supplies--title {
+    margin-left: 80px;
+  }
+  .supplies__container .supplies--wrapper {
+    margin-left: 250px;
+  }
+  .supplies__container .supplies--wrapper .first-supplies .supplies--info {
+    width: 100%;
+  }
+  .supplies__container .supplies--wrapper .first-supplies img {
+    display: none;
+  }
+  .logos__container .logos--title {
+    margin-left: 80px;
+  }
+  .logos__container .logos--wrapper .logos--first__wrapper {
+    margin-left: 60px;
+  }
+  .logos--second__wrapper {
+    margin-left: 60px;
+  }
+  .company--title {
+    margin-left: 80px;
+  }
+  .company__container .company--wrapper .company--list {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 80px;
+  }
+  .contacts--title {
+    margin-left: 80px;
+  }
+  .contacts--wrapper {
+    margin-left: 80px;
+  }
+  .video {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer__container {
+    width: 100%;
+    margin-left: 80px;
+  }
 }
 @media screen and (max-width: 576px) {
   .container {
     max-width: 540px;
+  }
+  .hero__container {
+    display: block;
+    margin: 0 auto;
+    margin-left: 100px;
+  }
+  .hero-info {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero__container .hero-info h1 {
+    text-align: center;
+    width: 100%;
+  }
+  .hero__container .hero-info .hero-text {
+    width: 690px;
+    margin: 0 auto;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 44px;
+    color: #6B6B6C;
+  }
+  .hero__container .hero-info a {
+    margin: 0 auto;
+  }
+  .hero__container .hero-img img {
+    margin: 0 auto;
+    width: 960px;
+    margin-top: 71px;
+    margin-bottom: 41px;
+  }
+  .services-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 97px;
+  }
+  .big--truct__container {
+    margin: 0 auto;
+    width: 100%;
+    margin-left: 105px;
+    margin-bottom: 48px;
+  }
+  .links__container .liks--first__wrapper {
+    margin: 0 auto;
+    display: block;
+  }
+  .work__container {
+    display: block;
+    margin: 0 auto;
+  }
+  .work__container .work--title {
+    margin-left: 80px;
+  }
+  .work__container .work--text {
+    margin-left: 80px;
+  }
+  .work__container .work--wrapper {
+    display: block;
+  }
+  .work__container .work--wrapper .machines {
+    width: 100%;
+    margin-bottom: 32px;
+    margin-left: 80px;
+  }
+  .work__container .work--wrapper .machines img {
+    width: 100%;
+    height: 247px;
+  }
+  .clients__container {
+    margin-left: 80px;
+    display: block;
+  }
+  .clients--title {
+    display: block;
+    margin-bottom: 88px;
+  }
+  .supplies__container .supplies--title {
+    margin-left: 80px;
+  }
+  .supplies__container .supplies--wrapper {
+    margin-left: 250px;
+  }
+  .supplies__container .supplies--wrapper .first-supplies .supplies--info {
+    width: 100%;
+  }
+  .supplies__container .supplies--wrapper .first-supplies img {
+    display: none;
+  }
+  .logos__container .logos--title {
+    margin-left: 80px;
+  }
+  .logos__container .logos--wrapper .logos--first__wrapper {
+    margin-left: 60px;
+  }
+  .logos--second__wrapper {
+    margin-left: 60px;
+  }
+  .company--title {
+    margin-left: 80px;
+  }
+  .company__container .company--wrapper .company--list {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 80px;
+  }
+  .contacts--title {
+    margin-left: 80px;
+  }
+  .contacts--wrapper {
+    margin-left: 80px;
+  }
+  .video {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer__container {
+    width: 100%;
+    margin-left: 80px;
   }
 }/*# sourceMappingURL=style.css.map */
